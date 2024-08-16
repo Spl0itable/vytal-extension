@@ -16,7 +16,7 @@ interface LocationPageProps {
 }
 
 const LocationPage = ({ tab }: LocationPageProps) => {
-  const [browserDefault, setBrowserDefault] = useState(true)
+  const [browserDefault, setBrowserDefault] = useState(false)
   const [ipData, setIpData] = useState<ipData>()
   const [ipInfo, setIpInfo] = useState('loading...')
   const [timezone, setTimezone] = useState('')
