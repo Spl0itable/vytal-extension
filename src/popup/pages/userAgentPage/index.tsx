@@ -11,7 +11,7 @@ interface UserAgentPageProps {
 }
 
 const UserAgentPage = ({ tab }: UserAgentPageProps) => {
-  const [browserDefault, setBrowserDefault] = useState(true)
+  const [browserDefault, setBrowserDefault] = useState(false)
   const [userAgentInfo, setUserAgentInfo] = useState('')
   const [userAgent, setUserAgent] = useState('')
   const [platform, setPlatform] = useState('')
